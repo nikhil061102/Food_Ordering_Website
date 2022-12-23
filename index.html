@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    
+
+<header class="header">
+    
+    <a href="#" class="logo"> <i class="fas fa-utensils"></i> AapkaKhana </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search for restaurants, cuisines or dishes">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.jpg" alt="">
+            <div class="content">
+                <h3>Sweet Corn</h3>
+                <span class="price">&#8377; 20</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.jpg" alt="">
+            <div class="content">
+                <h3>Veg Momos</h3>
+                <span class="price">&#8377; 60</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>Blue Lagoon</h3>
+                <span class="price">&#8377; 40</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : &#8377; 120</div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p><a href="#">Forgot Password?</a></p>
+        <p><a href="#">Sign Up</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3><span>delicious</span> and <span>mind blowing</span> cuisines waiting for you </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.</p>
+        <a href="#products"class="btn">Explore</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading">unique <span>features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/Picture18.png" alt="">
+            <h3>Live Order Tracking</h3>
+            <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/Picture19.png" alt="">
+            <h3>No Minimum Order</h3>
+            <p>Order in for yourself or for the group, with no restrictions on order value</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/Picture20.png" alt="">
+            <h3>Lightning-Fast Delivery</h3>
+            <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="products" id="products">
+
+    <h1 class="heading">Popular<span>products</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/Picture6.png" alt="">
+                <h3>pepperoni pizza</h3>
+                <div class="price"> 30% off on purchase of upto &#8377; 200 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Picture7.jpg" alt="">
+                <h3>Aloo Tikki Burger</h3>
+                <div class="price"> buy 1 get 1 free  </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Picture8.jpg" alt="">
+                <h3>Strawberry Cheesecake</h3>
+                <div class="price"> Upto 50% off </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Picture9.jpg" alt="">
+                <h3>Mutton Biryani</h3>
+                <div class="price"> Tastiest Biryani just for &#8377; 299 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide box">
+                <img src="image/Picture10.jpg" alt="">
+                <h3>Veg Noodles</h3>
+                <div class="price"> straight 60% off </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Picture11.jpg" alt="">
+                <h3>Honey Chilly Potato</h3>
+                <div class="price"> Bringing you the best </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Picture13.jpg" alt="">
+                <h3>milkshakes</h3>
+                <div class="price"> Best Offers </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Picture12.jpg" alt="">
+                <h3>veg masala dosa</h3>
+                <div class="price"> Spicest tastiest south indian </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> product <span>categories</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/cat-1.jpg" alt="">
+            <h3>Chinese</h3>
+            <a href="#" class="btn">explore</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-2.jpg" alt="">
+            <h3>Tandoori Appetizers</h3>
+            <a href="#" class="btn">explore</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-3.jpg" alt="">
+            <h3>Desserts</h3>
+            <a href="#" class="btn">explore</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-4.jpg" alt="">
+            <h3>Beverages</h3>
+            <a href="#" class="btn">explore</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>xyz gupta</h3>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>qazx kaur</h3>
+                
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>zxc verma</h3>
+                
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>abc Agrawal</h3>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"><h3> AapkaKhana <i class="fas fa-utensils"></i> </h3></a>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+
+            <div class="store">
+                <p> </p>
+                <a href="#"><img src="image/appstore.png" alt=""></a>
+                <a href="#"><img src="image/gplay.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links" style="text-transform: lowercase;"> <i class="fas fa-envelope"></i>cust_service@apnakhana.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> gurugram, india - 122001 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
